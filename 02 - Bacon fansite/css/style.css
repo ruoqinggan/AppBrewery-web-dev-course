@@ -3,14 +3,25 @@
   to   { transform: scaleX(1); }
 }
 
+/*************************TAG SELECTORS*************************/
+
 h1 {
   color: red;
   animation: 5s linear 1s infinite alternate slidein;
 
 }
 
-img {
-  background-color: red;
-  animation: .5s linear 1s infinite alternate slidein;
+img:hover{
+  background-color: gold;
+}
 
+/*************************CLASS SELECTORS*************************/
+.bacon {
+  background-color: green;
+  animation: 1s linear 1s infinite alternate slidein;
+}
+
+.broccoli {
+  background-color: red;
+  animation: 1s linear 1s infinite alternate slidein;
 }
