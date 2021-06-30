@@ -1,11 +1,56 @@
 body {
   margin: 0;
-}
+  text-align: center;
+  font-family: 'Noto Serif', serif;
 
-div {
-  background-color: #E8E8E8;
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4rem;
+  color: #171717;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: #171717;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #DA0037;
+}
+
+a {
+  color: #DA0037;
+}
+
+.top-container {
+  background-color: #EDEDED;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
