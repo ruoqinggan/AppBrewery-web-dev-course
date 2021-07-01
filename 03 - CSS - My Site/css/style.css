@@ -2,13 +2,13 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Noto Serif', serif;
-
 }
 
 h1 {
-  margin-top: 50px auto 0 auto;
+  margin: 50px auto 0 auto;
   font-family: 'Rock Salt', cursive;
   font-size: 4rem;
+  line-height: 2;
   color: #171717;
 }
 
@@ -16,7 +16,6 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 2.5rem;
-  line-height: 2;
   color: #171717;
 }
 
@@ -29,28 +28,135 @@ a {
   color: #DA0037;
 }
 
+hr {
+  border-color: #EDEDED;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  height: 2px;
+  width: 5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .top-container {
   background-color: #EDEDED;
   padding-top: 100px;
+  padding-bottom: 350px;
   position: relative;
 }
 
-.middle-container {
+.profile {
+  width: 33%;
+  margin: 100px auto;
+  line-height: 2;
+}
 
+.skills {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 100px auto 80px auto;
 }
 
 .bottom-container {
-
+  background-color: #444444;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+.footer-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  line-height: 2;
+  margin: 30px;
 }
 
 .top-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  right: 200px;
+  top: 50px;
+}
+
+.train {
+  position: absolute;
+  bottom: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+}
+
+.coding-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.presentation-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.attribution-coding {
+  clear: left;
+  padding-top: 10px;
+  font-size: 20%;
+  color: #444444;
+}
+
+.attribution-presentation {
+  clear: right;
+  text-align: right;
+  padding-top: 10px;
+  font-size: 20%;
+  color: #444444;
+}
+
+.btn-contact-me {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #EDEDED;
+   font-family: Open Sans;
+   font-size: 1rem;
+   font-weight: 100;
+   padding: 15px;
+   background-color: #DA0037;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 2em;
+}
+
+.btn-contact-me:hover {
+   border: solid #444444 1px;
+   background: #444444;
+   background-image: -webkit-linear-gradient(top, #444444, #444444);
+   background-image: -moz-linear-gradient(top, #444444, #444444);
+   background-image: -ms-linear-gradient(top, #444444, #444444);
+   background-image: -o-linear-gradient(top, #444444, #444444);
+   background-image: -webkit-gradient(to bottom, #444444, #444444);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.copyright {
+  margin-top: 20px;
+  color: #EDEDED;
+  font-size: 0.8rem;
+  line-height: 2;
 }
